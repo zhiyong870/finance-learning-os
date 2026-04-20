@@ -1,0 +1,38 @@
+# Environment & secrets
+.env
+.env.*
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.uv/
+
+# Data cache & downloads
+reports/raw/
+*.cache
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
